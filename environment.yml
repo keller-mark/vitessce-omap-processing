@@ -1,0 +1,17 @@
+name: vitessce-omap-processing
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - jupyterlab
+  - numpy
+  - pandas
+  - scipy
+  - networkx==2.4
+  - snakemake
+  - anndata
+  - zarr
+  - pip
+  - pip:
+    - obonet==0.2.5
