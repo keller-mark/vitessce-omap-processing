@@ -8,10 +8,10 @@ dependencies:
   - numpy
   - pandas
   - scipy
-  - networkx==2.4
+  - networkx
   - snakemake
   - anndata
   - zarr
   - pip
   - pip:
-    - obonet==0.2.5
+    - obonet==1.0.0
