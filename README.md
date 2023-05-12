@@ -19,7 +19,7 @@ mv ./DON218-ND-52yM-T1A.ome.tiff ./DON218-ND-52yM-T1A.ome.tif
 
 # File 2:
 # Convert QPTIFF to OME-TIFF
-~/software/bftools/bfconvert ./Repeat_Test-2_Scan1.qptiff ./Repeat_Test-2_Scan1.ome.tif
+~/software/bftools/bfconvert -series 0 ./Repeat_Test-2_Scan1.qptiff ./Repeat_Test-2_Scan1.ome.tif
 
 # Get OME-XML metadata
 ~/software/bftools/tiffcomment ./Repeat_Test-2_Scan1.ome.tif > ./Repeat_Test-2_Scan1.ome.xml
